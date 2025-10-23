@@ -10,6 +10,7 @@ sdkconfig.old
 # IDE Files
 .vscode/
 .idea/
+.claude/
 *.swp
 *.swo
 *~
