@@ -1,0 +1,15 @@
+## IDF Component Manager Manifest File
+dependencies:
+  espressif/coco_detect:
+    version: "*"
+    override_path: "../coco_detect"
+  espressif/esp32-camera:
+    version: "^2.0.0"
+  espressif/esp32_s3_eye_noglib:
+    version: "^3.1.0~1"
+    rules:
+     - if: "target == esp32s3"
+  espressif/esp32_p4_function_ev_board_noglib:
+    version: "^4.0.1"
+    rules:
+     - if: "target == esp32p4"

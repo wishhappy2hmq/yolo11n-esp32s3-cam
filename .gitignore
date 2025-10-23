@@ -1,0 +1,23 @@
+# ESP32 Build Files
+build/
+sdkconfig
+sdkconfig.old
+*.pyc
+
+# Model Files (*.espdl files should be added manually)
+*.espdl
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+dependencies/
+managed_components/
