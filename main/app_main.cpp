@@ -17,8 +17,8 @@ static const char *TAG = "YOLO_DETECT_CAM";
 
 // ==================== WiFi 配置 ====================
 // WiFi信息 - 保持不变
-#define WIFI_SSID "Niuniuniu"
-#define WIFI_PASS "niuniuniu666!"
+#define WIFI_SSID "******"
+#define WIFI_PASS "******"
 
 #define WIFI_CONNECTED_BIT BIT0
 #define WIFI_FAIL_BIT      BIT1
